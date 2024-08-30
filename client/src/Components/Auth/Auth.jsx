@@ -12,7 +12,7 @@ function Auth() {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/v8/getform');
+            const response = await axios.get('https://api.apnipolicy.in/api/v8/getform');
             const reversedData = response.data.data.reverse(); // Reverse the data array
             setData(reversedData);
             // console.log(reversedData)
@@ -27,7 +27,7 @@ function Auth() {
 
     // const handleDelete = async (_id) => {
     //     try {
-    //         await axios.delete(`http://localhost:5000/api/v8/deleteform/${_id}`);
+    //         await axios.delete(`https://api.apnipolicy.in/api/v8/deleteform/${_id}`);
     //         toast.success('Item deleted successfully');
     //         fetchData(); // Fetch updated data after deletion
     //     } catch (error) {
@@ -48,7 +48,7 @@ function Auth() {
         }).then(async (result) => {
             if (result.isConfirmed) {
                 try {
-                    const res = await axios.delete(`http://localhost:5000/api/v8/deleteform/${_id}`);
+                    const res = await axios.delete(`https://api.apnipolicy.in/api/v8/deleteform/${_id}`);
                     console.log(res.data);
                     toast.success("Enquiry Deleted");
                     handleFetch();

@@ -32,7 +32,7 @@ function ApplyForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/v8/createform', formData);
+      const response = await axios.post('https://api.apnipolicy.in/api/v8/createform', formData);
       console.log(response);
       if (response.status === 200) {
         toast.success('Form submitted successfully! Redirecting...');
