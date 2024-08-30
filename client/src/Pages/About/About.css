@@ -1,0 +1,53 @@
+.About-section{
+    width: 100%;
+}
+
+.About-section .About-container{
+    max-width: 1920px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.About-section .About-container .heading{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    background-color: #2FB4F0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.About-section .About-container .about-data{
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.About-section .About-container .about-data .row1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.About-section .About-container .about-data .row1 h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.About-section .About-container .about-data .row1 p{
+    color: rgb(71, 71, 71);
+}
+
+.About-section .About-container .about-data .row1 p span{
+    color: #2FB4F0;
+}
+
+.About-section .About-container .about-data .row1 ul{
+    list-style: disc;
+    padding-left: 22px;
+}

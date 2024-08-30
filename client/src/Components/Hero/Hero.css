@@ -1,0 +1,29 @@
+.hero-section {
+    /* padding: 20px; */
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.hero-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider-box {
+    height: 400px;
+}
+
+.slider-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slick-dots{
+    bottom: 2% !important;
+    color: white;
+}
+
+.slick-dots li button:before {
+    color: white;
+}

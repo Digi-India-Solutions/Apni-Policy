@@ -1,0 +1,145 @@
+/* auth.css */
+
+.auth-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #f7fafc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 1200px; /* Adjust max-width as per your design needs */
+    margin: 0 auto;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-heading span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+th, td {
+    padding: 12px 15px;
+    white-space: nowrap;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.78rem; /* Adjust font size as needed */
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+td button {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+td button:hover {
+    background-color: #e84118;
+}
+
+@media (max-width: 768px) {
+    .auth-container {
+        width: 100%;
+        margin: 0;
+        overflow-x: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* table, th, td {
+        display: block;
+    } */
+    /* th {
+        position: absolute;
+        top: -9999px;
+        left: -9999px; */
+    /* } */
+    /* tbody tr {
+        margin-bottom: 20px;
+        display: block;
+        border-bottom: 2px solid #e0e0e0;
+    }
+    tbody tr td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+        border: none;
+    }
+    tbody tr td:before {
+        content: attr(data-label);
+        flex: 1;
+        font-weight: bold;
+        padding-right: 10px;
+    } */
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #2980b9;
+}
+
+.pagination button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.pagination button:first-child {
+    margin-left: 0;
+}
+
+.pagination button:last-child {
+    margin-right: 0;
+}

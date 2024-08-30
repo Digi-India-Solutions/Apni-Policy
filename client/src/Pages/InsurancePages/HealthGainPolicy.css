@@ -1,0 +1,160 @@
+.HealthGainPolicy-section{
+    width: 100%;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top{
+    width: 100%;
+    padding: 40px 60px;
+    background-color: #F3F3F3;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left span{
+    color: #1784b7;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left h3{
+    color: #2FB4F0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left p{
+    color: #676568;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left a{
+    padding: 8px 13px;
+    border: 1px solid #2FB4F0;
+    border-radius: 8px;
+    color: #2FB4F0;
+    font-size: 15px;
+    transition: all 0.3s linear;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left a:hover{
+    background-color: #1784b7;
+    color: white;
+    /* border: 1px solid white; */
+    box-shadow: 4px 2px -5px 19px #2FB4F0;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .right{
+    width: 36%;
+}
+
+@media (max-width:750px) {
+
+    .HealthGainPolicy-section .HealthGainPolicy-container .top{
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+    
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left h3{
+    color: #2FB4F0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .top .left p{
+    color: #676568;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+    
+    .HealthGainPolicy-section .HealthGainPolicy-container .top .left{
+        width: 100%;
+    }
+    
+    .HealthGainPolicy-section .HealthGainPolicy-container .top .right{
+        width: 100%;
+    }
+    
+}
+    
+.HealthGainPolicy-section .HealthGainPolicy-container .about-policy{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    /* background-color: #FCF8FC; */
+    background-color: #f9feff;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .about-policy .detail{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .about-policy .detail h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .about-policy .detail h2 span{
+    color: #2FB4F0;
+    /* text-align: center; */
+}
+
+.HealthGainPolicy-section .HealthGainPolicy-container .about-policy .detail p{
+    text-align: center;
+}
+
+@media (max-width:750px) {
+    
+    /* .HealthGainPolicy-section .HealthGainPolicy-container .about-policy{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0px;
+        background-color: #f9feff;
+    } */
+    
+    .HealthGainPolicy-section .HealthGainPolicy-container .about-policy .detail{
+        width: 100%;
+    }
+    
+}
+    
+.HealthGainPolicy-section .HealthGainPolicy-container .adavantage-policy{
+    width: 100%;
+}
